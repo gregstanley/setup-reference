@@ -1,0 +1,9 @@
+.vscode
+.vs
+
+*.user
+
+bin/
+obj/
+
+*.log

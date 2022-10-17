@@ -7,9 +7,8 @@
         {
           "background": "#0C212F",
           "foreground": "#FFFFFF",
-          "style": "diamond",
+          "style": "plain",
           "template": " {{ .Icon }} ",
-          "powerline_symbol": "\ue0b0",
           "trailing_diamond": "\ue0b0",
           "type": "os"
         },
@@ -18,8 +17,6 @@
           "foreground": "#ffffff",
           "style": "diamond",
           "template": " {{ .UserName }} ",
-          "leading_diamond": "<transparent,#7419A9>\ue0b0</>",
-          "powerline_symbol": "\ue0b0",
           "trailing_diamond": "\ue0b0",
           "type": "session"
         },

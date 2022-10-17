@@ -5,11 +5,21 @@
       "alignment": "left",
       "segments": [
         {
+          "background": "#0C212F",
+          "foreground": "#FFFFFF",
+          "style": "diamond",
+          "template": " {{ .Icon }} ",
+          "powerline_symbol": "\ue0b0",
+          "trailing_diamond": "\ue0b0",
+          "type": "os"
+        },
+        {
           "background": "#7419A9",
           "foreground": "#ffffff",
-          "leading_diamond": "\ufab2",
           "style": "diamond",
           "template": " {{ .UserName }} ",
+          "leading_diamond": "<transparent,#7419A9>\ue0b0</>",
+          "powerline_symbol": "\ue0b0",
           "trailing_diamond": "\ue0b0",
           "type": "session"
         },
@@ -24,6 +34,7 @@
           },
           "style": "powerline",
           "template": " \uf74a  {{ .Path }} ",
+          "trailing_diamond": "\ue0b0",
           "type": "path"
         },
         {
